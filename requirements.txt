@@ -58,7 +58,7 @@ decorator==4.4.2
 defusedxml==0.6.0
 diff-match-patch==20181111
 distributed==2.13.0
-Django==2.2.7
+Django==2.2.13
 django-plotly-dash==1.1.1
 docutils==0.16
 docx2txt==0.8
