@@ -30,7 +30,7 @@ tab_welcome = html.Div(
                           and [shape](https://en.wikipedia.org/wiki/Shape_parameter) 
                           parameters to introduce **_skewness_**. Probably the most famous member of this family is the 
                           [Two-Piece Normal](https://quantgirl.blog/two-piece-normal/) which is also known as 
-                          [split normal](https://en.wikipedia.org/wiki/Split_normal_distribution) binormal, 
+                          [split normal](https://en.wikipedia.org/wiki/Split_normal_distribution), binormal, 
                           or double-Gaussian. This distribution results from joining at the mode the corresponding
                           halves of two normal distributions with the same mode  but different standard deviations.
                           This idea can be seen in the following graph where we can see the two half 
@@ -107,7 +107,7 @@ tab_welcome = html.Div(
                       ),
 
                       dcc.Markdown(
-                          '''For technical details on this families of distributions we refer to 
+                          '''For technical details on these families of distributions we refer to 
                           the following two publications which serve as reference for the twopiece Python implementation.
                           ''',
                           style={'padding': '0px 0px 0px 10px'}
