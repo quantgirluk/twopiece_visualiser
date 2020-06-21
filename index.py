@@ -3,7 +3,7 @@ import dash_html_components as html
 import plotly.io as pio
 from dash.dependencies import Input, Output
 
-from app import app
+from app import app, server
 from apps import welcome, scale, shape, double
 
 colors = {
