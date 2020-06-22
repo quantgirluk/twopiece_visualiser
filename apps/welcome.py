@@ -62,13 +62,15 @@ tab_welcome = html.Div(
 
                       html.H5(className='what-is',
                               children='What is Two-Piece Distributions Visualiser?'),
-                      html.P('The main objective of this web app is to provide visualisations of the density functions'
-                             'for the most popular two-piece distributions. '
-                             'Moreover, it allows you to change scale and shape parameters '
-                             'to observe the effect on the density function. '
-                             'It covers the three subfamilies of Two-Piece distributions:',
-                             style={'padding': '10px 0px 0px 10px'}
-                             ),
+                      dcc.Markdown('It is a [Dash](https://dash.plotly.com/) app that provides visualisations of '
+                                   'the density functions for the most '
+                                   'popular two-piece distributions. '
+                                   'It allows you to change scale and shape parameters and see the effect '
+                                   'on the density functions showing the high flexibility of this family of '
+                                   'distributions. '
+                                   'It covers the three subfamilies of Two-Piece distributions:',
+                                   style={'padding': '10px 0px 0px 10px'}
+                                   ),
 
                       dcc.Markdown(
                           '''
@@ -79,19 +81,17 @@ tab_welcome = html.Div(
                           * Double: where skewness is introduced by differing both scale and shape parameters 
                           either side of the mode.
                           
-                          Feel free to explore each family in their correspongind tab.
+                          Feel free to explore each family in their corresponding tab.
                       
                           ''',
                           style={'padding': '0px 0px 0px 20px'}
                       ),
 
-
-
                       html.H5("References"),
 
                       dcc.Markdown(
                           '''For the [Python](https://www.python.org/) implementation of the twopiece family please
-                          visit my Git repoitory [twopiece](https://github.com/quantgirluk/twopiece) library. 
+                          visit my Git repoitory [twopiece](https://github.com/quantgirluk/twopiece). 
                           You can find details on the latest release in my blog entry
                           [twopiece-1.2.0](https://quantgirl.blog/twopiece-1-2-0/)             
                           ''',
